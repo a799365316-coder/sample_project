@@ -1,0 +1,24 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//c/Espressif/**)",
+      "Read(//c//**)",
+      "Read(//c/Users/weixin.zheng/esp/**)",
+      "Bash(find /c/ -maxdepth 4 -name \"idf.py\" 2>/dev/null; find \"$HOME\" -maxdepth 6 -name \"idf.py\" 2>/dev/null; echo \"---done---\")",
+      "Bash(ls /d/Software/ESP32/v5.5.4/esp-idf/tools/idf.py 2>/dev/null && echo \"idf.py found\" || echo \"idf.py not found\")",
+      "Read(//d/Software/ESP32/v5.5.4/esp-idf/tools/**)",
+      "Bash(ls /d/Software/ESP32/v5.5.4/esp-idf/export.sh 2>/dev/null && echo \"Found export.sh\")",
+      "Read(//d/Software/ESP32/v5.5.4/esp-idf/**)",
+      "Bash(/c/Espressif/tools/python/v5.5.4/venv/Scripts/python.exe -c \"import click; print\\('OK'\\)\")",
+      "Bash(cmd.exe //c \"set IDF_PATH=D:/Software/ESP32/v5.5.4/esp-idf && set IDF_PYTHON_ENV_PATH=C:/Espressif/tools/python/v5.5.4/venv && set IDF_TOOLS_PATH=C:/Espressif/tools && set ESP_ROM_ELF_DIR=C:/Espressif/tools/esp-rom-elfs/20241011/ && C:/Espressif/tools/python/v5.5.4/venv/Scripts/python.exe D:/Software/ESP32/v5.5.4/esp-idf/tools/idf.py build\")",
+      "Bash(export IDF_PATH=\"D:/Software/ESP32/v5.5.4/esp-idf\")",
+      "Bash(export IDF_PYTHON_ENV_PATH=\"C:/Espressif/tools/python/v5.5.4/venv\")",
+      "Bash(/c/Espressif/tools/python/v5.5.4/venv/Scripts/python.exe -c ' *)",
+      "Bash(echo \"Failed with exit code: $?\")",
+      "Bash(cmd.exe //c \"python -c \\\\\"from PIL import Image, ImageDraw, ImageFont; font = ImageFont.truetype\\('C:\\\\\\\\\\\\\\\\Windows\\\\\\\\\\\\\\\\Fonts\\\\\\\\\\\\\\\\msyh.ttc', 32\\); print\\('OK:', font\\)\\\\\" 2>&1\")",
+      "Bash(python /e/Work/ESP32/FreeRTOS/sample_project/tools/gen_bitmap.py)",
+      "Bash(echo \"Exit: $?\")",
+      "Bash(python)"
+    ]
+  }
+}

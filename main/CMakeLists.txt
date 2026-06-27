@@ -1,0 +1,13 @@
+idf_component_register(SRCS "main.cpp"
+                    "DEV_Config.cpp"
+                    "EPD_2in9g.cpp"
+                    "GUI_Paint.cpp"
+                    "ImageData.cpp"
+                    "font8.cpp"
+                    "font12.cpp"
+                    "font12CN.cpp"
+                    "font16.cpp"
+                    "font20.cpp"
+                    "font24.cpp"
+                    "font24CN.cpp"
+                    INCLUDE_DIRS ".")
