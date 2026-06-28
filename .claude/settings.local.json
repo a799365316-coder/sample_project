@@ -18,7 +18,20 @@
       "Bash(cmd.exe //c \"python -c \\\\\"from PIL import Image, ImageDraw, ImageFont; font = ImageFont.truetype\\('C:\\\\\\\\\\\\\\\\Windows\\\\\\\\\\\\\\\\Fonts\\\\\\\\\\\\\\\\msyh.ttc', 32\\); print\\('OK:', font\\)\\\\\" 2>&1\")",
       "Bash(python /e/Work/ESP32/FreeRTOS/sample_project/tools/gen_bitmap.py)",
       "Bash(echo \"Exit: $?\")",
-      "Bash(python)"
+      "Bash(python)",
+      "Bash(python /e/Work/ESP32/FreeRTOS/sample_project/tools/gen_countdown.py)",
+      "Bash(/c/Espressif/tools/python/v5.5.4/venv/Scripts/python.exe -m idf_component_manager)",
+      "Bash(/d/Software/ESP32/v5.5.4/esp-idf/tools/idf_component_manager.py)",
+      "Read(//d/Software/ESP32/v5.5.4/esp-idf/tools//**)",
+      "Bash(/c/Espressif/tools/python/v5.5.4/venv/Scripts/python.exe -m idf_component_manager registry search lvgl)",
+      "WebFetch(domain:components.espressif.com)",
+      "Bash(ls -la \"E:/Work/ESP32/FreeRTOS/LVGL/retire plan LVGL/\")",
+      "Read(//e/Work/ESP32/FreeRTOS/LVGL/retire plan LVGL/**)",
+      "Bash(find \"E:/Work/ESP32/FreeRTOS/LVGL\" -type f 2>/dev/null)",
+      "Read(//e/Work/ESP32/FreeRTOS/LVGL/**)",
+      "Bash(cp \"E:/Work/ESP32/FreeRTOS/LVGL/ui.h\" \"E:/Work/ESP32/FreeRTOS/LVGL/ui.c\" \"E:/Work/ESP32/FreeRTOS/LVGL/ui_events.h\" \"E:/Work/ESP32/FreeRTOS/LVGL/ui_helpers.h\" \"E:/Work/ESP32/FreeRTOS/LVGL/ui_helpers.c\" \"e:/Work/ESP32/FreeRTOS/sample_project/main/\")",
+      "Bash(cp \"E:/Work/ESP32/FreeRTOS/LVGL/screens/ui_Screen1.c\" \"e:/Work/ESP32/FreeRTOS/sample_project/main/screens/\")",
+      "Bash(cp \"E:/Work/ESP32/FreeRTOS/LVGL/components/ui_comp_hook.c\" \"e:/Work/ESP32/FreeRTOS/sample_project/main/components/\")"
     ]
   }
 }

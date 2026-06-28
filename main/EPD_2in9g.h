@@ -14,6 +14,10 @@
 
 #include "DEV_Config.h"
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
 // Display resolution
 #define EPD_2IN9G_WIDTH        128
 #define EPD_2IN9G_HEIGHT       296
@@ -29,5 +33,9 @@ void EPD_2IN9G_Init_Fast(void);
 void EPD_2IN9G_Clear(const UBYTE color);
 void EPD_2IN9G_Display(const UBYTE *Image);
 void EPD_2IN9G_Sleep(void);
+
+#ifdef __cplusplus
+}
+#endif
 
 #endif

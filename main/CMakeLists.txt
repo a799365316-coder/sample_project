@@ -1,4 +1,4 @@
-idf_component_register(SRCS "main.cpp"
+idf_component_register(SRCS "epd_lvgl_drv.c" "main.cpp"
                     "DEV_Config.cpp"
                     "EPD_2in9g.cpp"
                     "GUI_Paint.cpp"
@@ -10,4 +10,8 @@ idf_component_register(SRCS "main.cpp"
                     "font20.cpp"
                     "font24.cpp"
                     "font24CN.cpp"
-                    INCLUDE_DIRS ".")
+                    "ui.c"
+                    "ui_helpers.c"
+                    "screens/ui_Screen1.c"
+                    "components/ui_comp_hook.c"
+                    INCLUDE_DIRS "." "screens" "components")
